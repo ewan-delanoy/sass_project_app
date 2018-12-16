@@ -58,6 +58,8 @@ GEM
     arel (9.0.0)
     bcrypt (3.1.12)
     bindex (0.5.0)
+    bootstrap-datepicker-rails (1.8.0.1)
+      railties (>= 3.0)
     builder (3.2.3)
     byebug (10.0.2)
     capybara (2.18.0)
@@ -107,7 +109,7 @@ GEM
       less (~> 2.6.0)
       sprockets (> 2, < 4)
       tilt
-    libv8 (3.16.14.19-x86_64-darwin-17)
+    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -231,6 +233,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-session_store!
+  bootstrap-datepicker-rails
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
