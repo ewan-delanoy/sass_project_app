@@ -29,5 +29,5 @@
 </table>
 
 <%= link_to t('.new', :default => t("helpers.links.new")),
-            new_artifact_path,
+            new_artifact_path(project_id: @project.id),
             :class => 'btn btn-primary' %>
