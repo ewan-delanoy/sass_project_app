@@ -15,9 +15,11 @@ class ArtifactsController < ApplicationController
   # GET /artifacts/new
   def new
     @artifact = Artifact.new
-    puts "AAA"
-    p params
-    puts "BBB"
+    #puts "AAA"
+    #p params
+    #puts "BBB"
+    #p self
+    #puts "CCC"
     @artifact.project_id = params[:project_id]
   end
 
